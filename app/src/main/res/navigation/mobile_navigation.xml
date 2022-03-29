@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="kz.nurkaydarov097.culturalheritageofkazakhstan.fragments.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/academicFragment"
+        android:name="kz.nurkaydarov097.culturalheritageofkazakhstan.fragments.AcademicFragment"
+        android:label="AcademicFragment" />
+</navigation>
